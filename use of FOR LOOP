@@ -1,0 +1,60 @@
+# sum of numbers: use a for loop to calculate the sum of num from 1 to 50
+l = 0
+for i in range(1, 51):
+     l += i
+print("Sum of numbers from 1 to 50 is:", l)
+
+
+
+
+# squre of numbers: print the square of each number from 1 to 10 using a for loop
+a = 1
+for i in range(1,11):
+     a = i * i
+     print(a)
+
+
+
+# print a string multiple times: print the word "python" 5 times using a for loop
+a = "Python"
+for i in range(0,5):
+    print(a)
+
+
+
+# print all even numbers between 1 to 30 with use of for loop
+for i in range (2,31,2):
+     print(i)
+
+
+
+#  print each latter: take a input from thhe user and print letter separately using a for loop
+a = input("Enter a word-: ")
+for i in range(len(a)):
+     print(a[i])
+
+
+
+# List Elements:
+# Given a list fruits = ["apple", "banana", "mango", "orange"], print each fruit using a for loop.
+list = ("apple", "banana", "mango", "orange")
+for item in list:
+     print(item)
+
+
+
+# Countdown: Use a for loop to print numbers from 10 down to 1.
+for i in range(11,0,-1):
+     print(i)
+
+
+
+# Multiplication Table:Ask the user for a number and print its multiplication table up to 10 using a for loop.
+# num = int(input("Enter a number: "))
+# for i in range(1,11):
+#     print(num"*")
+
+#  Sum of Even Numbers:write a program to find the sum of all even numbers between 1 and 20 using a for loop.
+# i = 0# for i in range(2,20,2):
+#      i += i
+#      print("sum of even numbers between 2 and 20 is", i)
