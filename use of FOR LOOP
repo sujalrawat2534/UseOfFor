@@ -1,3 +1,10 @@
+# wap to print numbers from 1 to 15 using a for loop.
+
+for i in range(1,16):
+    print(i)
+
+
+
 # sum of numbers: use a for loop to calculate the sum of num from 1 to 50
 l = 0
 for i in range(1, 51):
